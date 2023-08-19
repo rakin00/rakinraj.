@@ -419,7 +419,7 @@ class Main:
 		print("\n [1] File Cloning")
 		print(" [2] Public Cloning")
 		print(" [3] Create File")
-		print(" [4] 2008-9 Cloning")
+		print(" [4] random Cloning")
 		print(" [5] 2011-14 Cloning")
 		print(" [6] 2004-2005 Cloning Paid")
 		print(" [7] 2006-2007 Cloning Paid")
@@ -455,7 +455,7 @@ class Main:
 			
 			print("\033[0;93m [+] TOTAL ID -> \033[0;91m%s\033[0;97m"%(len(self.id))) 
 			with ThreadPoolExecutor(max_workers=30) as coeg:
-				print("\n\033[1;32m [!] USE (123456) FOR IDZ\033[1;37m ")
+				print("\n\033[1;32m [!] USE (123456 775588 112255) FOR IDZ\033[1;37m ")
 				listpass = input("%s [?] ENTER PASSWORD :%s "%(G,Y))
 				if len(listpass)<=5:
 					exit("\n%s [!] PASSWORD MINIMUM 6 CHARACTERS"%(B))
